@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="android-ia" fetch="."/>
+  <remote name="android-ia" fetch="https://github.com/android-ia/"/>
+  <remote name="xmister" fetch="."/>
 
   <default remote="android-ia" revision="master" sync-j="4"/>
 
@@ -33,11 +34,11 @@
   <project path="device/generic/x86" name="device_generic_x86" groups="pdk"/>
   <project path="device/google/accessory/arduino" name="device_google_accessory_arduino" groups="device"/>
   <project path="device/google/accessory/demokit" name="device_google_accessory_demokit" groups="device"/>
-  <project path="device/intel/baytrail" name="vendor_intel_baytrail"/>
+  <project path="device/intel/baytrail" name="vendor_intel_baytrail" remote="Xmister" revision="pavilion-x2-11"/>
   <project path="device/intel/common" name="vendor_intel_common"/>
   <project path="device/intel/haswell" name="device_intel_haswell"/>
   <project path="device/intel/ivybridge" name="device_intel_ivybridge"/>
-  <project path="device/intel/mixins" name="device_intel_mixins"/>
+  <project path="device/intel/mixins" name="device_intel_mixins" remote="Xmister" revision="pavilion-x2-11"/>
   <project path="device/intel/recovery_plugins" name="platform_vendor_intel_recovery_plugins"/>
   <project path="device/sample" name="device_sample" groups="pdk"/>
   <project path="docs/source.android.com" name="platform_docs_source.android.com"/>
@@ -306,7 +307,7 @@
   <project path="hardware/ti/wpan" name="platform_hardware_ti_wpan"/>
   <project path="libcore" name="platform_libcore"/>
   <project path="libnativehelper" name="platform_libnativehelper" groups="pdk-java"/>
-  <project path="linux/kernel-uefi" name="kernel_intel-uefi"/>
+  <project path="linux/kernel-uefi" name="kernel_intel-uefi" remote="Xmister" revision="pavilion-x2-11"/>
   <project path="linux/modules/debug_tools" name="device_intel_debug_tools"/>
   <project path="ndk" name="platform_ndk"/>
   <project path="packages/apps/AndroidTerm" name="platform_packages_apps_AndroidTerm"/>
@@ -447,7 +448,7 @@
   <project path="tools/studio/cloud" name="platform_tools_studio_cloud" groups="notdefault,tools"/>
   <project path="tools/swt" name="platform_tools_swt" groups="notdefault,tools"/>
   <project path="vendor/intel/build" name="vendor_intel_build"/>
-  <project path="vendor/intel/hardware/audio" name="vendor_intel_audio"/>
+  <project path="vendor/intel/hardware/audio" name="vendor_intel_audio" remote="Xmister" revision="pavilion-x2-11"/>
   <project path="vendor/intel/hardware/libcamerauvc" name="platform_vendor_intel_libcamerauvc"/>
   <project path="vendor/intel/hardware/libdrm" name="hardware_intel_libdrm"/>
   <project path="vendor/intel/hardware/liblights" name="hardware_intel_liblights"/>
