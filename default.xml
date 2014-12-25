@@ -284,6 +284,7 @@
   <project path="hardware/akm" name="platform_hardware_akm"/>
   <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" groups="pdk"/>
   <project path="hardware/broadcom/wlan" name="platform_hardware_broadcom_wlan" groups="broadcom_wlan"/>
+  <project path="hardware/drm_gralloc" name="hardware_drm_gralloc"/>
   <project path="hardware/intel/wifi" name="vendor_intel_wifi"/>
   <project path="hardware/invensense" name="platform_hardware_invensense" groups="invensense"/>
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk"/>
